@@ -1,5 +1,4 @@
-import Cards from './components/Cards'
-import CountryPicker from './components/CoutryPicker'
+import {Cards, CountryPicker, Chart} from './components'
 import {useState, useEffect} from 'react'
 
 import {fetchGlobalData} from './api/index'
@@ -24,6 +23,7 @@ const App = () => {
     return (
         <div className='App'>
             <Cards {...cardData}/>
+            <Chart {...cardData}/>
             <CountryPicker setCardData={setCardData}/>
         </div>
     )

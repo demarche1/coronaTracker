@@ -18,8 +18,6 @@ const Cards = ({ confirmed, recovered, deaths, lastUpdate }) => {
                         start={0}
                         end={confirmed.value}
                         separator="."
-                        decimals={2}
-                        decimal=","
                         duration={2}
                     />
                 </div>
@@ -34,8 +32,6 @@ const Cards = ({ confirmed, recovered, deaths, lastUpdate }) => {
                         start={0}
                         end={recovered.value}
                         separator="."
-                        decimals={2}
-                        decimal=","
                         duration={2}
                     />
                 </div>
@@ -50,8 +46,6 @@ const Cards = ({ confirmed, recovered, deaths, lastUpdate }) => {
                         start={0}
                         end={deaths.value}
                         separator="."
-                        decimals={2}
-                        decimal=","
                         duration={2}
                     />
                 </div>
