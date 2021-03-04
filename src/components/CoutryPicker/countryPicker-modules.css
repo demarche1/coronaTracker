@@ -1,0 +1,17 @@
+.country-picker-container{
+    width: min(1400px, 90%);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.country-select{
+    padding: .3rem;
+    font-size: 1rem;
+    width: min(600px, 80%);
+    outline: none;
+    border-radius: 3px;
+    background: transparent;
+}
